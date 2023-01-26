@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Digital Clock</title>
+
+  <!-- link for tailwind css -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- link for font-awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+  <!-- link for external css -->
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body class="w-100">
+
+  <h1 class="text-center text-7xl mt-10 text-white">Digital Clock⌚</h1>
+
+  <!-- a flex box -->
+  <div class="flex  fbox flex-row w-auto  bg-blue-400 mt-20 mx-0 py-10 rounded-2xl justify-center">
+    <div class="px-7 bg-black mr-5 py-3 rounded-2xl">
+      <h1 class="text-center text-8xl " style="color:green" id="hour">00</h1>
+    </div>
+    <div class="px-7 bg-black mr-5 py-3 rounded-2xl">
+      <h1 class="text-center text-8xl" style="color:green" id="minute">00</h1>
+    </div>
+    <div class="px-7 bg-black py-3 rounded-2xl">
+      <h1 class="text-center text-8xl " style="color:green" id="meridian">xx</h1>
+    </div>
+  </div>
+
+  <footer class="mt-20">
+    <div class="footerdiv">
+      <div class="footerflex ">
+
+        <div class="footerflex1 bg-black">
+
+          <h3 class="text-center" style="margin-bottom: 20px;
+  color:rgba(255, 255, 255, 0.6);">Others</h3>
+          <a href="https://www.linkedin.com/in/dhananjay-dharne-663856235/" target="_blank"><i class="fa fa-brands fa-linkedin fa-3x mr-2 text-white"></i></a>
+          <a href="https://www.instagram.com/dhananjay_dharne09/" target="_blank"><i class="fa fa-brands fa-instagram fa-3x mr-2 text-white"></i></a>
+          <a href="https://github.com/Dhananjay-D" target="_blank"><i class="fa fa-brands fa-github fa-3x text-white"></i></a>
+        </div>
+
+        <div class="footerflex2 bg-black">
+
+          <h4 style="margin-bottom: 20px;
+  text-align:center;
+  color:white;">Have a question</h4>
+          <h5 style="color:#D1C6C4;"><i class="fa-solid fa-location-dot fa-1x mr-4"></i>KA, India</h5>
+          <h5 style="color:#D1C6C4;"><i class="fa-sharp fa-solid fa-phone fa-1x mr-4"></i>+91 8217014312</h5>
+          <h5 style="color:#D1C6C4;"><i class="fa-solid fa-message fa-1x mr-3"></i></i>dhananjay.dharne09@gmail.com</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- external javascript link -->
+  <script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
